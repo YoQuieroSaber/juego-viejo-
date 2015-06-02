@@ -1,0 +1,14 @@
+{
+	"ID": "1",
+	"Nombre": "Candidatos a Gobernador de Buenos Aires",
+	"Distrito": "Buenos Aires",
+	"Nivel": "Provincial",
+	"Cargo": "Gobernador",
+	"Preguntas":{
+		"ID": "0",
+		"Texto": "¿Está de acuerdo con el aborto legal?",
+		"Respuestas":{
+			
+		}	
+	}
+}

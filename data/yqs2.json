@@ -1,0 +1,14 @@
+{
+	"ID": "2",
+	"Nombre": "Candidatos a Gobernador de Córdoba",
+	"Distrito": "Córdoba",
+	"Nivel": "Provincial",
+	"Cargo": "Gobernador",
+	"Preguntas":{
+		"ID": "0",
+		"Texto": "¿Está de acuerdo con el aborto legal?",
+		"Respuestas":{
+			
+		}	
+	}
+}
