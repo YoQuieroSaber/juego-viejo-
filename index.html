@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
+
+<title>Yo Quiero Saber</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/yqs.css" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Yo Quiero Saber</a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div><!--/.nav-collapse -->
+			</div>
+</nav>
+<div id=inicio>
+	<div class="row">
+		<img src="img/inicio.jpg" class='imgInicio' >
+	</div>
+	<div class="row">
+		<h1 class="iniT">&#191;A qui&#233;n voto?</h1>
+		<div class="col-xs-1 col-md-4">
+		</div>
+		<div class="col-xs-10 col-md-4">
+
+			<h4 class="invita">&#191;Quer&#233;s enterarte con cu&#225;l candidato ten&#233;s m&#225;s afinidad para las pr&#243;ximas elecciones a<br/><br/>
+				<select name="elecci&#243;n" id="eleccion">
+				</select>
+				?</h4><br/>
+		</div>
+		<div class="col-xs-1 col-md-4">
+		</div>
+	</div>
+	<div class="row">
+		<button type="button" class="bJugar"></button>        
+	</div>
+</div>
+
+<div id=game>
+	
+
+	<div class="row" id="encabezado">
+		<div class="recorrido">
+			<ul>
+				<div class="dots" id="p0"></div>
+				<div class="dots" id="p1"></div>
+				<div class="dots" id="p2"></div>
+				<div class="dots" id="p3"></div>
+				<div class="dots" id="p4"></div>
+				<div class="dots" id="p5"></div>
+				<div class="dots" id="p6"></div>
+				<div class="dots" id="p7"></div>
+			</ul>
+		</div>
+
+		<div class="pregunta">
+			<!--	<div class="page-header"> -->
+				<h3 class="tPreg">¿El aborto debería ser legal y para todos?</h3>
+				<!--	</div> -->
+		</div>
+	</div>
+	<div class="elige"><h5 class="tElige">Elige tu voto</h5></div>
+	<section>
+		
+			<div class="col-xs-6 col-md-6" id="sobre1" style="text-align:right"><button type="button" class='voto' id="vSi" alt="Si" ></button></div>
+			<div class="col-xs-6 col-md-6" id="sobre2" style="text-align:left"><button type="button" class='voto' id="vNo" alt="No" ></button></div>
+	
+		<div class="masOp"><button type="button" class="bMasO"></button></div>
+	</section>
+
+	<!--<footer -->
+		<div class="urna1" style="text-align:center;z-index:1">
+			<img src="img/urnaTop1.png" width="100%" height="100%">
+		</div>
+		<div class="urna2" style="text-align:center;z-index:100">
+			<img src="img/urnaTop2.png" width="100%" height="100%">
+
+		</div>
+		<div class="urna3" style="text-align:center;z-index:100">
+			<img src="img/urnaBottom.png" width="100%" height="100%">
+			<div class="posturas">
+				<h3 class="nElec"></h3>
+			</div>
+		</div>
+		<div class="sigue"><button type="button" class="bSig"></button></div>
+		<!--	</footer> -->
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/jstween-1.2.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+
+
+</html>

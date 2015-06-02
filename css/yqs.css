@@ -1,0 +1,408 @@
+body{
+	background-color:#444;
+}
+nav{
+	background-color:#444;
+}
+button:focus {
+outline: none;
+}
+
+.navbar-inverse {
+  background-color: #444;
+  border-color: #080808;
+}
+.container{
+	background-color:#444;
+}
+
+#inicio{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:#444;
+	//z-index:1;
+	text-align:center;
+	padding-top:20%;
+	padding-bottom:20%;
+	overflow:auto;
+}
+
+#inicio h1{
+	color:#FFF;
+}
+#inicio h4{
+	color:#00b201;
+}
+
+#inicio #eleccion {
+	direction: rtl;
+	color:#00b201;
+	background-color:#444;	
+	border: none;
+	margin-left:1%;
+	margin-right:1%;
+	/*border: 1px solid #AAA;
+	border-radius: 2px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);*/
+/*	text-align:center;
+	font-size: inherit;
+	padding-top: 5px;
+	padding-bottom: 5px;/
+	/*margin: 0;
+	overflow: hidden;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;*/
+}
+.bJugar{
+	//background-color:#2d9309;
+	background: url(../img/botonInicio.jpg) no-repeat;
+	background-size: 100%;
+	//color:#FFF;
+	width:250px;
+	height:63px;
+	//border-radius: 1em;	
+	border: none;
+}
+.imgInicio{
+	width:100px;
+	height:100px;
+}
+#game{
+	position:absolute;
+	left:0;
+	top:0;
+	padding-top:5px;
+	width:100%;
+	height:100%;
+	background-color:#444;	
+	//z-index:0;
+	overflow:hidden;
+}
+
+header {
+	background-color: #444;
+	color: #000;
+	text-align: center;
+}
+.recorrido{
+	text-align:center;	
+}
+.recorrido ul {
+	position: relative;
+	display: inline-block;
+	margin: 0 0 0 0;
+	//padding-top: 2%;
+	//padding-bottom: 2%;
+	padding-left: 0;
+	height: 7%;
+	width:60%;
+	list-style: none;	
+	
+	//cursor: default;
+}
+
+.dots {
+	/*	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 100%;
+	background-color: #000;
+	background-color: rgba(100,100,100,0.3);
+	text-indent: -999em;
+	cursor: pointer; /* make the text accessible to screen readers */
+	//	position: absolute;
+
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-right:2%;
+	margin-left:2%;
+	//margin-top:4px;
+	//margin-bottom:8px
+	//padding-bottom:2px;
+	//margin-bottom:2px;
+
+	text-indent: -999em;
+
+	border: 1px solid #000;
+	border-radius: 8px;
+	//padding-botton:4px;
+
+	//cursor: pointer;
+	//	opacity: .4;
+
+	background-color: #000;
+
+	//vertical-align: center;    
+	//line-height: normal;
+
+}
+
+.pregunta {
+	//padding-botton: 1%;
+	//padding-botton: 5%;
+	//padding-top:1%;
+	margin-top:0%;
+	text-align: center;
+
+
+	color: #fff;
+	text-shadow: 0 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+
+	background-color: #444;
+	//box-shadow: 0 1px 2px rgba(0,0,0,.25);
+	//border:none;
+}
+.page-header{
+	border:none;
+	//padding-bottom:2%;
+	margin:0;
+}
+.tPreg{
+	padding-top:0%;
+	padding-left:2%;
+	padding-right:2%;
+	margin-top:0;
+	margin-bottom:0;
+	height:18%;
+	overflow:hidden;
+}
+.row #encabezado{
+	display:block;
+	position:relative;
+	height:30%;
+	padding-top: 0%;
+	background-color:#444
+	color:#FFF
+	//padding-bottom:10%;	
+}
+.elige{
+	position:absolute;
+	top:30%;
+	z-index:10;
+//	left:0%;
+//padding-top:20%;
+	width:100%;
+	text-align:center;
+}
+.tElige{
+	background-color:#444;
+	color:#aaa;
+}
+[class*="col-"] {
+	// padding-top: 15px;
+	// padding-bottom: 15px;
+	background-color: #444;
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+}
+#sobre1,#sobre2{
+	//height:25%;
+	padding-top:20%;
+	//padding-top:75px;
+
+	//overflow:hidden;
+	position:absolute;
+	width:50%;
+	height:50%;
+}
+#sobre1{
+	left:0;
+	padding-right:2%;
+}
+#sobre2{
+	left:50%;
+	padding-left:2%;
+}
+.voto{
+	//color:#FFF;
+	width:50%;
+	height:50%;
+	//border-radius: 1em;	
+	border: none;
+}
+
+#vSi {
+	//background-color:#2d9309;
+	background: url(../img/si.jpg) no-repeat;
+	background-size: 100%;
+	overflow:auto;
+}
+
+#vNo {
+	//background-color:#2d9309;
+	background: url(../img/no.jpg) no-repeat;
+	background-size: 100%;
+	overflow:auto;
+	
+}
+
+.masOp{
+	position:absolute;
+	top:62%;
+	left:41%;
+	z-index:200;
+	width:15%;
+	height:15%;
+	//width:40px;
+	//height:40px;
+	text-align:center;
+}
+
+.bMasO{
+	//background-color:#2d9309;
+	background: url(../img/opciones.png) no-repeat;
+	background-size: 100%;
+	//color:#FFF;
+	width:100%;
+	height:100%;
+	//border-radius: 1em;	
+	border: none;	
+}
+
+footer {
+	background-color: #444;
+	color: #000;
+	//text-align: center;	
+}
+
+.urna1,.urna2,.urna3{
+	position:absolute;
+	width:90%;
+	left:5%;
+	margin:0;
+	padding:0;
+}
+
+.urna1{
+	top:80%;
+	height:3%;
+}
+
+.urna2{
+	top:83%;
+	height:2%;	
+}
+
+.urna3{
+	top:85%;
+	height:15%;	
+}
+.posturas{
+	position:absolute;
+	text-align:center;
+	background-color:#aaa;
+	z-index:500;
+	top:5%;
+	left:0%;
+	width:100%;
+	height:100%;
+}
+
+.sigue{
+	position:absolute;
+	z-index:200;
+	text-align:center;
+}
+
+.bSig{
+	//background-color:#2d9309;
+	background: url(../img/siguiente.png) no-repeat;
+	background-size: 100%;
+	//color:#FFF;
+	width:100%;
+	height:100%;
+	//border-radius: 1em;	
+	border: none;	
+}
+
+@media screen and (max-width:480px){
+	.imgInicio{
+	//	width:20px;
+	//	height:20px;
+	}
+
+	h1{
+	//	font-size:2em;
+	}
+
+	h3{
+		font-size:1.5em;
+	}
+
+	h4{
+	//	font-size:0.9em;
+	}
+	
+	.urna1,.urna2,.urna3{
+		left:5%;
+		width:90%;	
+	}
+}
+@media only screen and (min-width:481px){
+	.urna1,.urna2,.urna3{
+		left:10%;
+		width:80%;	
+	}
+}
+@media only screen and (min-width:768px){
+	.urna1,.urna2,.urna3{
+		left:15%;
+		width:70%;	
+	}
+}
+@media only screen and (min-width:960px){
+	/* styles for browsers larger than 960px; */
+	.imgInicio{
+		width:127px;
+		height:127px;
+	}
+
+	.bJugar{	
+		width:338px;
+		height:84px;
+	}
+
+	.urna1,.urna2,.urna3{
+		left:20%;
+		width:60%;	
+	}
+}
+@media only screen and (min-width:1440px){
+	/* styles for browsers larger than 1440px; */	
+	.urna1,.urna2,.urna3{
+		left:25%;
+		width:50%;	
+	}
+}
+@media only screen and (min-width:2000px){
+	/* for sumo sized (mac) screens */
+	.urna1,.urna2,.urna3{
+		left:30%;
+		width:40%;	
+	}
+}
+@media only screen and (max-device-width:480px){
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+	
+}
+
+
+
+@media only screen and (device-width:768px){
+	/* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+	/* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
+}

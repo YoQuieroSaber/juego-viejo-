@@ -1,0 +1,44 @@
+{
+	"ID": "0",
+	"Nombre": "Pre&#45;candidatos a presidente de Argentina",
+	"Distrito": "Argentina",
+	"Nivel": "Nacional",
+	"Cargo": "Presidente",
+	"Preguntas":{
+		"ID": "0",
+		"Texto": ["&#191;Est&#225;s de acuerdo con la tenencia de drogas para consumo personal?","&#191;Cre&#233;s que se deben instalar m&#225;s c&#225;maras de seguridad en la v&#237;a p&#250;blica?","&#191;La inseguridad se combate aumentando las penas de los delitos?","&#191;Cre&#233;s que se debe bajar la edad de imputabilidad?"],
+		"Opciones":[
+			["Sí","Si, pero sólo en el caso de marihuana","No, salvo con usos medicinales","No"],
+			["Sí", "Sí, pero que sólo sean observadas por la autoridad pública", "No, salvo en lugares de gran concentración de gente (como estaciones de tren, aeropuertos, parques, etc)", "No"],
+			["Sí", "Sí, pero también hay que mejorar las cárceles y con re-educación del delincuente","No, pero los procesos judiciales deberían ser más rápidos","No, las penas más severas no son la solución",""],
+			["Sí, hasta los 14 años", "Sí, pero hasta los 16 años", "No, salvo que se le aplique una pena que no sea de prisión", "No"]
+		],
+
+		"Candidatos":{
+			"Macri":{
+				"Nombre":"Mauricio Macri",
+				"Partido":"Union PRO Federal",
+				"Foto":"https://scontent-gru1-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/998751_10151833038678478_493442375_n.jpg?oh=60be11994a453eb3399e9e9f2c0f9b71&oe=55F9E2BA",
+				"Respuestas":["1","1","1","0"]
+			},
+			"Scioli":{
+				"Nombre":"Daniel Scioli",
+				"Partido":"FpV",
+				"Foto":"https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10152374_10152581245773787_1079208260254897631_n.png?oh=b10a2c586c149dcc27d4257ad91c9939&oe=56031DE5&",
+				"Respuestas":["2","0","2","2"]
+			},
+			"Massa":{
+				"Nombre":"Sergio Massa",
+				"Partido":"Frente Renovador",
+				"Foto":"https://scontent-gru1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s720x720/10257959_10153373176024928_6552259887146670331_n.jpg?oh=dcaf00f1ed36b467cd545e83f0452be8&oe=55FC8FC9",
+				"Respuestas":["1","1","1","1"]
+			},
+			"Stolbizer":{
+				"Nombre":"Margarita Stolbizer",
+				"Partido":"GEN-FAP",
+				"Foto":"https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/s720x720/10003915_10155486801740473_4013550621175646990_n.jpg?oh=5c94d506cbc4b0b47b91293e1d25104a&oe=55FAB023&__gda__=1442317275_ab41643465fb4ef554861b310a583669",
+				"Respuestas":["1","2","3","2"]
+			}
+		}
+	}
+}
